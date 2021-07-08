@@ -1,0 +1,6 @@
+paleta de colores hexadecimal
+9CDDF8 azul mas claro
+01BCF1 azul claro
+00459A azul oscuro
+9A9899 Gris
+
