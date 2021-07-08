@@ -1,0 +1,12 @@
+"Caracas", "Maracaibo", "Valencia", "Barquisimeto", "Maracay", "Ciudad Guayana", "Barcelona",	"San Cristóbal",
+"Maturín", "Barinas", "Ciudad Bolívar", "Cumaná", "Mérida", "Valera", "Cabimas", "Santa Teresa del Tuy", "Punto Fijo",
+"Acarigua",  "Los Teques", "Coro", "Guanare", "Ciudad Ojeda", "Puerto Cabello",	"Guarenas", "Puerto La Cruz", "Guatire", 
+"Turmero", "Tocuyito", "El Tigre"," Carora"," La Victoria"," Cabudare", "Carúpano", "San Fernando de Apure", "Guacara",
+"El Tocuyo", "Los Guayos", "Santa Rita", "Güigüe"	, "Anaco", "San Juan de Los Morros", "Quibor", "El Vigía", "Palo Negro"
+"San Felipe", "San Carlos", "Mariara", "Villa de Cura", "Ocumare del Tuy", "Yaritagua", "Cúa", "Araure", "Calabozo", 
+"Táriba", "Guasdualito", "Puerto Ayacucho", "Machiques", "Cagua", "Porlamar", "Charallave", "La Asunción",
+"Valle de la Pascua", "Santa Lucía", "Trujillo", "El Valle del Espiritu Santo",	"Tinaquillo", "Puerto Píritu", "El Limón",
+"Socopó", "Boconó", "Punta de Mata", "Ejido", "Upata", "Rubio", "Caja Seca", "Catia La Mar", "Tumeremo", "Cantaura", "La Grita", 
+"Santa Bárbara del Zulia", "Tucupita", "San José de Guanipa", "Chivacoa", "Lechería", "Zaraza", "Nirgua", "Siquisique", 
+"Santa Rita", "Guanta", "Morón", "Pariaguán", "San Juan de Colón", "San Joaquín", "San Antonio de los Altos", 
+"Caicara del Orinoco", "Achaguas", "Biruaca", "Pampatar", "La Guaira", "Maiquetía". 

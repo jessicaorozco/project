@@ -1,0 +1,102 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 50vh;
+  width: 100vw;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+  opacity: 1;
+}
+
+.slide .content {
+  position: absolute;
+ top: 15rem;
+  left: -300px;
+  opacity: 0;
+  width: 600px;
+  background: rgba(255,255,255,0.6);
+  color: #333;
+  padding: 35px;
+}
+
+.slide .content h1 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.slide .content h3 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.slide.current .content {
+  opacity: 1;
+  transform: translateX(600px);
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+.buttons button#next {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+}
+
+.buttons button#prev {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+}
+
+.buttons button {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 13px 15px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.buttons button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+@media(max-width: 500px) {
+  .slide .content {
+    top: 40rem;
+    left: 0;
+    width: 100%;
+  }
+
+  .slide.current .content {
+    transform: translateY(-300px);
+  }
+}
+
+/* Background Images */
+.slide:first-child {
+  background: url('https://image.freepik.com/foto-gratis/tuberias-acero-cables-planta_1359-144.jpg')no-repeat center center/cover;
+}
+.slide:nth-child(2) {
+  background: url('https://image.freepik.com/foto-gratis/resumen-borroso-muebles-decoracion-almacen-tienda_74190-6647.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(3) {
+  background: url('https://images.pexels.com/photos/236720/pexels-photo-236720.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') no-repeat center center/cover;
+}
+.slide:last-child {
+  background: url('https://image.freepik.com/foto-gratis/cerrar-mano-hombre-negocios-ocupado-escritorio-oficina-cuaderno-documentos-trabajo_1150-15424.jpg') no-repeat center center/cover;
+}
+
